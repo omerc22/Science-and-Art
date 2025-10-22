@@ -1,4 +1,5 @@
-Transformers
-Torch 
-Steamlit
+- Transformers
+- Torch 
+- Steamlit
+- diffusers
 is installed
