@@ -12,8 +12,7 @@ WARNING
 
 Colab notebook is not showing up on github in a confusing way. I attached a photo for this:
 
-<<<<<<< HEAD
-![1](https://i.imgur.com/tZ2pjn7.png)
+
 
 =======
 ![1](https://i.imgur.com/BIOZdxb.png)
