@@ -73,4 +73,34 @@ This document outlines the performance and stylistic behavior of my custom **Sta
 
 ---
 
-#
+## 🛠 Image Generation Log & Parameter Analysis
+
+### 1. Portrait Study: "Keanu Reeves"
+
+* **Parameters:** `Inference Steps: High`, `Guidance Scale: Medium (7.5)`
+* **Observation:** High fidelity on hair texture and suit details. The model captures the "John Wick" aesthetic perfectly. The lighting is dramatic and consistent.
+
+### 2. Contextual Task: "Keanu Reeves eating bagel in Eminönü"
+
+* **Variation A (Low Guidance):** Keanu looks like a blend of different people; the bagel is floating or merged with his hand.
+* **Variation B (High Guidance/Steps):** Improved environment. The model attempts to place him on a crowded street. Interestingly, it interprets "bagel" as something closer to a Turkish *simit* but with a giant hole.
+* **Takeaway:** Adding specific locations (Eminönü) significantly changes the lighting to a more "outdoor/natural" feel.
+
+![4](outputs/4.jpg)
+
+![5](outputs/5.jpg)
+
+### 3. Action Sequence: "Thomas Anderson is dodging bullets"
+
+* **Observation:** The model struggled with the "bullet time" effect, instead producing a high-intensity, slightly distorted portrait. It seems to prioritize the *character* over the *action* in the prompt.
+* **Result:** A rugged, intense look that leans more towards a gritty action movie poster than a sci-fi slow-motion shot.
+
+![2](outputs/2.jpg)
+
+### 4. Architecture: "Istanbul University"
+
+* **Prompt Type:** Landscape/Interior
+* **Observation:** Instead of a direct copy of the Beyazıt campus, the model generated a majestic, high-ceilinged hall with pointed arches and circular motifs. 
+* **Takeaway:** The model uses "University" and "Istanbul" as vibe-checkers to create a neo-orientalist architectural masterpiece rather than a photographic replica.
+
+![1](outputs/1.jpg)
